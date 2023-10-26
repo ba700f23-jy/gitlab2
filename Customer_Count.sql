@@ -2,5 +2,5 @@
 
 /*Count the number of customers*/
 
-select count(*)
+select count(Male), count(Female)
 from customers;
